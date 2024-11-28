@@ -5,8 +5,12 @@ int main() {
 	scanf("%d", &a);
 	scanf("%d", &b);
 	if (a>b) {
-		printf("a greater than b");
+		printf("a > b \n");
+		sum = a-b ;
+		printf("%d",sum);
 	} else {
-		printf("b greater than a");
+		printf("b > a \n");
+		sum = b-a ;
+		printf("%d",sum);		
 	}
 }
